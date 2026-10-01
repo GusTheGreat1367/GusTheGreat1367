@@ -5,6 +5,12 @@
 //    (|#|)
 //  _/ (0) \_
 
+// Steps to get rid of a bug:
+
+// 1. Debug.Log() until it confesses
+// 2. repeat 1
+// 3. rewrite everything
+
 // My finest line of code (jk):
 
 GameObject instantiatedPiece = Instantiate(myPrefab, start + new Vector3((start.y == 0) ? start.x <= 0 ? distance / 2 : -distance / 2 : 0, (start.x == 0) ? start.y <= 0 ? distance / 2 : -distance / 2 : 0), rotation * Quaternion.Euler(0, 0, (start.x == 0) ? start.y <= 0 ? -90 : 90 : 0));
